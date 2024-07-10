@@ -1,0 +1,1 @@
+export const API = "http://localhost:9090/v1/api/outlets";

@@ -3,12 +3,12 @@ const OutletData = ({data}) => {
         <>
             {
                 data.map((outlet) => {
-                    const {id, name} = outlet;
+                    const {id, outletName, saleOffer} = outlet;
 
                     return (
                         <tr key={id}>
-                            <td>{id}</td>
-                            <td>{name}</td>
+                            <td>{outletName}</td>
+                            <td>{saleOffer}</td>
                         </tr>
                     )
                 })

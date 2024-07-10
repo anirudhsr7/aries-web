@@ -1,7 +1,6 @@
 import {useState, useEffect} from "react";
 import OutletData from "./components/OutletData";
-
-const API = "https://jsonplaceholder.typicode.com/users";
+import { API } from "./util/constants";
 
 const App = () => {
 
